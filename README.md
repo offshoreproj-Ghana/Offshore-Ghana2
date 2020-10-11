@@ -9,5 +9,5 @@ python manage.py runserver
 
 
 
-# Run webpack (from root)
+# Run webpack (from frontend)
 npm run dev
