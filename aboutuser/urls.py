@@ -1,9 +1,14 @@
+from django.contrib import admin
+from django.urls import path, include
 from rest_framework import routers
-
-from .api import PersonViewSet
+from .views import Aboutuserviewset
+from . import views 
 
 
 router = routers.DefaultRouter()
-router.register('Person', PersonViewSet, 'aboutuser')
+router.register('Person', Aboutuserviewset)
 
-urlpatterns = router.urls
+urlpatterns = [
+    #path('', views.first),
+    path('',  include(router.urls)),
+]
