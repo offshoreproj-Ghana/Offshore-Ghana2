@@ -1,17 +1,27 @@
 # Offshore-Ghana2
 
-# Install npm modules
-cd into frontend folder and run 
+Offshore-Ghana is a test project for the offshore team based in Ghana
+
+## Installation
+
+cd into frontend folder and run
+```bash
 npm install
 
-
-Install these packages
+```
+In root folder run to install django and djangorestframework
+```bash
 pipenv install django djangorestframework
+```
 
-# Serve API on localhost:8000
+## Serve API on localhost:8000
+
+```
 python manage.py runserver
+```
 
-
-
-# Run webpack (from frontend)
+## Run webpack (from frontend)
+```
 npm run dev
+```
+
