@@ -4,6 +4,10 @@
 cd into frontend folder and run 
 npm install
 
+
+Install these packages
+pipenv install django djangorestframework
+
 # Serve API on localhost:8000
 python manage.py runserver
 
