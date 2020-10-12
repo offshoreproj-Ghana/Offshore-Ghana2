@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import PersonForm from './PersonForm';
+import Person from './Person';
+import { Provider } from 'react-redux';
+import store from '../store'
 
+export default function App() {
+    return (
+        <Provider store={store}>
+            <Fragment>
 
-export default class App extends Component {
-    render() {
-        return (
+                <Person />
+            </Fragment>
+        </Provider>
+    )
 
-
-            <PersonForm />
-
-        )
-
-    }
 }
 
 
