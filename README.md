@@ -1,6 +1,7 @@
 # Offshore-Ghana2
 
-Offshore-Ghana is a test project for the offshore team based in Ghana
+Offshore-Ghana is a test project for the offshore team based in Ghana. Development is still going on, 
+
 
 ## Installation
 
